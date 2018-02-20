@@ -1,0 +1,16 @@
+body{
+  font-family: 'Muli';
+}
+
+#bannerimage {
+  width: auto;
+  background-image: url(image/homepage.jpg);
+  height: 556px;
+  background-position: center;
+}
+
+#footer {
+  padding-top: 15px;
+  background-color: #F6F6F6;
+  padding-bottom: 15px;
+}
