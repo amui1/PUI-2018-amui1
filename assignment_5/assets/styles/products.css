@@ -1,0 +1,306 @@
+/* products style */
+
+body {
+  font-family: "Open Sans";
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+
+.navbar {
+  float: right;
+}
+
+#p_title {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -85px;
+}
+
+#header_border {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #F28A91;
+    margin-top: 0px;
+}
+
+header {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#cart_num {
+  position: absolute;
+  margin-left: 175px;
+  margin-top: -80px;
+  font-weight: bold;
+  color: #F28A91;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#back {
+  position: absolute;
+  background-color: #FFFFFF;
+  border: 1px solid #F28A91;
+  color: black;
+  text-align: center;
+  padding: 8px 10px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 200px;
+}
+
+#product {
+  display: inline-block;
+}
+
+.pic {
+  margin-left: 200px;
+  margin-top: 80px;
+  float: left;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.info {
+  float: right;
+  margin-left: 80px;
+  margin-top: 60px;
+}
+
+#idv_p_title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#price {
+  font-size: 14px;
+}
+
+#description {
+  margin-top: -15px;
+  margin-left: -40px;
+}
+
+li p {
+  margin: -10px 0;
+}
+
+.second_line {
+  display:inline-block;
+  margin-top: -20px;
+}
+
+.opt_parameters {
+  display: inline-block;
+  margin-top: -15px;
+}
+
+#color {
+  float: left;
+}
+
+.size {
+  float: right;
+  margin-left: 185px;
+  margin-top: -55px;
+}
+
+#price {
+  float: left;
+}
+
+#ratings {
+  float: right;
+}
+
+ul.colors {
+  display: inline-block;
+  padding: 2px;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: -5px;
+}
+
+ul.colors li {
+  display: inline-block;
+  padding: 2px;
+}
+
+.purple {
+  position: relative;
+  background-color: #9013FE;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.blue {
+  position: relative;
+  background-color: #4A90E2;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.orange {
+  position: relative;
+  background-color: #F5A623;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.red {
+  position: relative;
+  background-color: #D0021B;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.small {
+  position: relative;
+  background-color: #FFFFFF;
+  border: 1px solid #F28A91;
+  color: black;
+  padding: 12px;
+  border-radius: 50%;
+  font-size: 10px;
+}
+
+.medium {
+  position: relative;
+  background-color: #FFFFFF;
+  border: 1px solid #F28A91;
+  color: black;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.large {
+  position: relative;
+  background-color: #FFFFFF;
+  border: 1px solid #F28A91;
+  color: black;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.extra_large {
+  position: relative;
+  background-color: #FFFFFF;
+  border: 1px solid #F28A91;
+  color: black;
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.size_opt {
+  margin-left: -55px;
+  margin-top: -10px;
+}
+
+.add {
+  background-color: #F28A91;
+  border: none;
+  color: white;
+  text-align: center;
+  padding: 5px 190px;
+  border-radius: 41.5px;
+  margin-left: 0px;
+  position: relative;
+  margin-top: 20px;
+  font-size: 24px;
+  margin-right: 200px;
+}
+
+#reviews {
+  width: 100%;
+  margin-top: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #F6F6F6;
+}
+
+#review_title {
+  margin-left: 200px;
+  display: inline-block;
+}
+
+#review_heading_title {
+  float: left;
+  color: #F28A91;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#stats {
+  float: right;
+  margin-left: 50px;
+  color: #F28A91;
+  font-size: 14px;
+  margin-top: 21px;
+}
+
+#user_icon {
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+#user_name {
+  position: absolute;
+  margin-left: 280px;
+  margin-top: -35px;
+}
+
+#user_rating {
+  position: absolute;
+  margin-left: 450px;
+  margin-top: -35px;
+}
+
+#user_review {
+  margin-left: 280px;
+  margin-right: 200px;
+}
+
+hr {
+  position: relative;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#footer {
+  width: 100%;
+  display: inline-block;
+  margin-top: 5px;
+  padding-top: 15px;
+  background-color: #F6F6F6;
+  padding-bottom: 15px;
+}
+
+.leftFooter {
+  float: left;
+  margin-left: 160px;
+  font-size: 14px;
+
+}
+
+.rightFooter {
+  float: right;
+  margin-right: 200px;
+  text-align: right;
+  font-size: 14px;
+}

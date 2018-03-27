@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Muddy Paws Adventures</title>
+    <!--styles-->
+    <link rel = "stylesheet" type = "text/css" href = "assets/styles/products.css"</link>
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id = "container">
+      <header>
+          <a href = "home.html"><img src = "assets/images/logo.png"></a>
+          <nav class = "navbar">
+            <ul>
+              <li><a href = "p_tran.html" id = "p_title">Products</a></li>
+              <li><a href = "#"><img src = "assets/images/user.png"></a></li>
+              <li><a href = "cart.html"><img src= "assets/images/cart.png"></a></li>
+              <li><p id = "cart_num"></p>
+            </ul>
+          </nav>
+      </header>
+
+      <hr id = "header_border">
+
+
+      <div id = "action">
+        <a href = "dogs.html" button id = "back"> < Back</button></a>
+      </div>
+
+      <div id = "product">
+        <div class = "pic">
+          <img id = "product_pic" src = "assets/images/collar.jpg" width = "404" height = auto>
+        </div>
+
+        <div class = "info">
+          <p id = "idv_p_title">Dog GPS Tracker Collar</p>
+
+          <div class = "second_line">
+            <p id = "price">$12.30</p>
+            <img id = "ratings" src = "assets/images/ratings.png">
+          </div>
+
+
+          <ul id = "description">
+            <li><p>8 hours of GPS battery life</p></li>
+            <li><p>Machine wash and dryer safe</p></li>
+            <li><p>Durable</p></li>
+          </ul>
+
+          <div class = "opt_parameters">
+            <div class = "color">
+              <p>Color</p>
+              <ul class = "colors">
+                <li><button class = "purple"></button></li>
+                <li><button class = "blue"></button></li>
+                <li><button class = "orange"></button></li>
+                <li><button class = "red"></button></li>
+              </ul>
+            </div>
+
+            <div class = "size">
+              <p>Size</p>
+
+              <ul class = "size_opt">
+                <li><button class = "small">S</button></li>
+                <li><button class = "medium">M</button></li>
+                <li><button class = "large">L</button></li>
+                <li><button class = "extra_large">XL</button></li>
+              </ul>
+
+            </div>
+
+          </div>
+
+          <div id = "action_button">
+            <button onclick = "cart()" class = "add">Add to Cart</button>
+          </div>
+
+
+        </div>
+      </div>
+
+      <div id = "reviews">
+
+        <div id = "review_title">
+          <p id = "review_heading_title">Reviews</p>
+          <p id = "stats">90 % positive reviews</p>
+        </div>
+
+        <div class = "user">
+          <div id = "icon">
+            <img id = "user_icon" src = "assets/images/user_rating.png" width = "35">
+          </div>
+
+          <div id = "user_info">
+            <p id = "user_name">Phyllis Vance</p>
+            <p id = "user_rating">5/5 rating</p>
+          </div>
+
+          <div id = "user_review">
+            <p id = "act_review">I used this collar when I took my dog hiking.
+              This collar worked so well! It simply connects with my phone. The car was made out of really good quality and was very durable. The GPS tracker was fully functional and let me relax if I ever lost sight of my dog. 10/10 recommend!</p>
+          </div>
+        </div>
+
+        <hr color = "white">
+
+        <div class = "user">
+          <div id = "icon">
+            <img id = "user_icon" src = "assets/images/user_rating.png" width = "35">
+          </div>
+
+          <div id = "user_info">
+            <p id = "user_name">Bob Vance</p>
+            <p id = "user_rating">5/5 rating</p>
+          </div>
+
+          <div id = "user_review">
+            <p id = "act_review">I used this collar when I took my dog hiking.
+              This collar worked so well! It simply connects with my phone. The car was made out of really good quality and was very durable. The GPS tracker was fully functional and let me relax if I ever lost sight of my dog. 10/10 recommend!</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div id = "footer">
+            <ul class = "leftFooter">
+              <p>Muddy Paws Adventure Shop</p>
+              <p>We are a family owned company dedicated to your pets' adventures!</p>
+              <img src = "assets/images/social.png">
+            </ul>
+
+            <ul class = "rightFooter">
+              <p>About Us</p>
+              <p>Contact</p>
+              <p>Press</p>
+            </ul>
+      </div>
+
+    </div>
+
+</body>

@@ -1,0 +1,195 @@
+/* dogs  style */
+
+body {
+  font-family: "Open Sans";
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+
+.navbar {
+  float: right;
+}
+
+#p_title {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -85px;
+}
+
+header {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#descrip {
+  font-size: 14px;
+}
+
+#main {
+  display: inline-block;
+}
+
+.banner {
+  float: left;
+}
+
+.products {
+  float: right;
+  margin-left: 60px;
+}
+
+#filter {
+  background-color: #FFFFFF;
+  border: 1px solid #F28A91;
+  color: black;
+  text-align: center;
+  padding: 8px 15px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-top: 40px;
+  margin-left: 200px;
+}
+
+#search {
+  background-color: #FFFFFF;
+  border: 1px solid #F28A91;
+  color: black;
+  text-align: center;
+  padding: 8px 60px;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+#product_dog_banner {
+  width: 100%;
+  background-image: url(assets/images/dBanner.jpg);
+  height: 392px;
+  background-position: center;
+}
+
+#shopDogs_title {
+  z-index: 100;
+  position: absolute;
+  top: 298px;
+  color: white;
+  margin-left: 200px;
+  margin-top: 80px;
+}
+
+#shopDogs_description {
+  z-index: 100;
+  position: absolute;
+  top: 345px;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+  margin-left: 200px;
+  margin-top: 70px;
+}
+
+figure {
+  display: inline-block;
+  margin-left: 200px;
+  padding: 0px;
+}
+
+figure img {
+  vertical-align: top;
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#collar {
+  margin-top: 30px;
+}
+
+.p_name {
+  margin-top: 5px;
+}
+
+.price {
+  margin-top: -13px;
+}
+
+ul.colors {
+  display: inline-block;
+  padding: 2px;
+  position: absolute;
+  margin-top: -15px;
+}
+
+ul.colors li {
+  display: inline-block;
+  padding: 2px;
+}
+
+#purple {
+  position: relative;
+  background-color: #9013FE;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+}
+
+#blue {
+  position: relative;
+  background-color: #4A90E2;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+}
+
+#orange {
+  position: relative;
+  background-color: #F5A623;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+}
+
+#red {
+  position: relative;
+  background-color: #D0021B;
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+}
+
+#footer {
+  width: 100%;
+  display: inline-block;
+  padding-top: 15px;
+  background-color: #F6F6F6;
+  padding-bottom: 15px;
+}
+
+.leftFooter {
+  float: left;
+  margin-left: 110px;
+  font-size: 14px;
+
+}
+
+.rightFooter {
+  float: right;
+  margin-right: 200px;
+  text-align: right;
+  font-size: 14px;
+}
