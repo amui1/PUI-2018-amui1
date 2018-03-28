@@ -4,59 +4,74 @@
     <title>Muddy Paws Adventures</title>
     <!--styles-->
     <link rel = "stylesheet" type = "text/css" href = "assets/styles/cart.css"</link>
+    <!-- javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="main.js" type="text/javascript"></script>
 
 </head>
 
 <body>
     <div id = "container">
       <header>
+        <!--makes nav bar  -->
           <a href = "home.html"><img src = "assets/images/logo.png"></a>
           <nav class = "navbar">
             <ul>
               <li><a href = "p_tran.html" id = "p_title">Products</a></li>
               <li><a href = "#"><img src = "assets/images/user.png"></a></li>
               <li><a href = "cart.html"><img src= "assets/images/cart.png"></a></li>
+              <li><p id = "cart_num"></p>
             </ul>
           </nav>
       </header>
 
       <hr id = "header_border">
 
-
+      <!--makes back button  -->
       <div id = "action">
         <a href = "dogs.html" button id = "back"> < Back to Products</button></a>
       </div>
 
+      <!--page description at the top - describes location and little dialog-->
       <div id = "cart_title">
         <p id = "cart_heading">My Cart</p>
         <p id = "cart_descrip">Just a few steps closer to your pet adventure!</p>
       </div>
 
+      <!--makes top border of order  -->
       <hr id = "items_top_border">
 
-      <div class = "item">
-        <div id = "item_pic">
-          <img id = "idv_pic" src = "assets/images/collar.jpg" width = 25% height = "auto">
-        </div>
+      <!--actual order in a list form  -->
+      <div id = "order">
 
-        <div id = "item_descrip">
-          <p id = "item_name">Dog GPS Tracker Collar</p>
-          <p id = "item_size">Medium</p>
-          <p id = "item_color">Crazyberry</p>
-          <p id = "qty">Quantity: 1</p>
-          <p id = "price">$12.30</p>
-        </div>
+          <div class = "item">
+            <div id = "item_pic">
+              <img id = "idv_pic" src = "" width = 25% height = "auto">
+            </div>
+
+            <div id = "item_descrip">
+              <p id = "item_name"></p>
+              <p id = "item_size"></p>
+              <p id = "item_color"></p>
+              <p id = "qty"></p>
+            </div>
+          </div>
+
       </div>
 
+
+      <!--makes bottom border of order  -->
       <hr id = "items_bottom_border">
 
+      <!--price of order  -->
       <div class = "order_price">
+        <!--left column headers-->
         <ul class = "order_parameters">
           <p>Subtotal</p>
           <p>Shipping & Tax</p>
           <p id = "total_price">Total</p>
         </ul>
-
+        <!--actual price-->
         <ul class = "user_order">
           <p>$12.30</p>
           <p>$5.20</p>
@@ -65,10 +80,13 @@
 
       </div>
 
+      <!--makes action button-->
       <div id = "action_buttons">
         <a href = "dogs.html" button class = "cont_button">Continue Shopping</button></a>
         <button class = "checkout">Checkout</button>
       </div>
+
+      <!--creates footer-->
 
       <div id = "footer">
             <ul class = "leftFooter">

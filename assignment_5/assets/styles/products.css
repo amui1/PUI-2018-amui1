@@ -1,5 +1,6 @@
 /* products style */
 
+/* styles attributes of body */
 body {
   font-family: "Open Sans";
 }
@@ -17,6 +18,7 @@ li {
   float: right;
 }
 
+/*adds description in specific place  */
 #p_title {
   position: absolute;
   margin-top: 20px;
@@ -36,6 +38,8 @@ header {
   margin-right: 200px;
 }
 
+
+/* updates cart num */
 #cart_num {
   position: absolute;
   margin-left: 175px;
@@ -48,6 +52,8 @@ a {
   text-decoration: none;
   color: #000;
 }
+
+/*styles back button  */
 
 #back {
   position: absolute;
@@ -62,10 +68,12 @@ a {
   margin-left: 200px;
 }
 
+/*so that product will be in the same row side by side  */
 #product {
   display: inline-block;
 }
 
+/*pic is on left */
 .pic {
   margin-left: 200px;
   margin-top: 80px;
@@ -73,11 +81,14 @@ a {
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+/* pic is on right */
 .info {
   float: right;
   margin-left: 80px;
   margin-top: 60px;
 }
+
+/*styles pic info */
 
 #idv_p_title {
   font-size: 18px;
@@ -97,6 +108,7 @@ li p {
   margin: -10px 0;
 }
 
+/*displays price and rating side by side  */
 .second_line {
   display:inline-block;
   margin-top: -20px;
@@ -107,6 +119,7 @@ li p {
   margin-top: -15px;
 }
 
+/*styles user parameters  */
 #color {
   float: left;
 }
@@ -124,6 +137,8 @@ li p {
 #ratings {
   float: right;
 }
+
+/*specific color choices - styled side by side  */
 
 ul.colors {
   display: inline-block;
@@ -170,6 +185,8 @@ ul.colors li {
   border-radius: 50%;
 }
 
+/*styled specific size options*/
+
 .small {
   position: relative;
   background-color: #FFFFFF;
@@ -212,6 +229,7 @@ ul.colors li {
   margin-top: -10px;
 }
 
+/*style button  */
 .add {
   background-color: #F28A91;
   border: none;
@@ -225,6 +243,8 @@ ul.colors li {
   font-size: 24px;
   margin-right: 200px;
 }
+
+/*style reviews  */
 
 #reviews {
   width: 100%;
@@ -281,6 +301,8 @@ hr {
   width: 100%;
   margin-top: 30px;
 }
+
+/* styles footer */
 
 #footer {
   width: 100%;

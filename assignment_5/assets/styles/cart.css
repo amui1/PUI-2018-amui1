@@ -1,3 +1,5 @@
+/* styles body attributes */
+
 body {
   font-family: "Open Sans";
 }
@@ -40,6 +42,14 @@ a {
   color: #000;
 }
 
+#cart_num {
+  position: absolute;
+  margin-left: 175px;
+  margin-top: -80px;
+  font-weight: bold;
+  color: #F28A91;
+}
+
 #back {
   background-color: #FFFFFF;
   border: 1px solid #F28A91;
@@ -52,11 +62,15 @@ a {
   margin-left: 200px;
 }
 
+/* page description/info */
+
 #cart_title {
   margin-left: 200px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
+/* styles border */
 
 #items_top_border {
   margin-left: 200px;
@@ -78,6 +92,9 @@ a {
   border-top: 1px solid #F28A91;
 }
 
+/*styles placement of the order info  */
+
+
 .item {
   display: inline-block;
   margin-top: 5px;
@@ -96,11 +113,6 @@ a {
   margin-left: 500px;
 }
 
-#price {
-  position: absolute;
-  margin-left: 560px;
-  margin-top: -80px;
-}
 
 .order_price {
   display: inline-block;

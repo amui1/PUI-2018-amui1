@@ -1,5 +1,6 @@
 /* dogs  style */
 
+/*styles body attributes  */
 body {
   font-family: "Open Sans";
 }
@@ -33,6 +34,8 @@ a {
   color: #000;
 }
 
+
+/* styles description of page */
 #title {
   font-size: 16px;
   font-weight: bold;
@@ -41,6 +44,8 @@ a {
 #descrip {
   font-size: 14px;
 }
+
+/* so that they are side by side - banner/products */
 
 #main {
   display: inline-block;
@@ -55,6 +60,7 @@ a {
   margin-left: 60px;
 }
 
+/* styles user customization button  */
 #filter {
   background-color: #FFFFFF;
   border: 1px solid #F28A91;
@@ -79,12 +85,16 @@ a {
   margin-top: 10px;
 }
 
+/* makes banner dog  at top*/
+
 #product_dog_banner {
   width: 100%;
   background-image: url(assets/images/dBanner.jpg);
   height: 392px;
   background-position: center;
 }
+
+/* positions text  */
 
 #shopDogs_title {
   z-index: 100;
@@ -105,6 +115,9 @@ a {
   margin-left: 200px;
   margin-top: 70px;
 }
+
+/* styles figures so that they are side by side - also adds shadow */
+/* positions color choices and price and product name */
 
 figure {
   display: inline-block;
@@ -127,6 +140,8 @@ figure img {
 .price {
   margin-top: -13px;
 }
+
+/* styles color so that they are side by side, correct size, and corred distance apart */
 
 ul.colors {
   display: inline-block;
@@ -171,6 +186,8 @@ ul.colors li {
   height: 14px;
   border-radius: 7px;
 }
+
+/* creates footer */
 
 #footer {
   width: 100%;
