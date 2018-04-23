@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Allison Mui - Work</title
+    <!--styles-->
+    <link rel = "stylesheet" type = "text/css" href = "assets/styles/water.css"</link>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- javascript -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <!-- creates a navbar with large padding, and background is white  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <!-- makes logo in the top left  -->
+    <a class="navbar-brand" href="../home.html">
+      <img src = "../assets/images/logo.png" width = "60" height = "60" class = "d-inline-block align-top" alt = "">
+    </a>
+
+    <!-- if window is small enough, menu will turn into a toggle  -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav navbar-nav navbar-right">
+        <!-- if user is on this page, then active  -->
+        <li class="nav-item active">
+          <a class="nav-link" href="../work.html">Work <span class="sr-only">(current)</span></a>
+        </li>
+        <!-- option to click other page  -->
+        <li class="nav-item">
+          <a class="nav-link" href="../about/me.html">About Me</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <!-- row for the first full width banner  -->
+  <div class = "row">
+    <!-- I want the banner to take the full screen, so all 12 spaces-->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <!-- my banner is the full width of the screen -->
+      <img id = "wC_banner" src="assets/images/waterBanner.png "
+            width = "100%">
+    </div>
+  </div>
+
+  <!-- creating the first row for introduction info -->
+  <div class = "row_heading">
+    <!-- take up full screen -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <!-- introduction information for project  -->
+      <!-- specific ids so I can style the font size of each  -->
+      <h2 id = "proj_name">WATERCONNECT</h2>
+      <h4 id = "skills">Responsive Web Design - Adobe Illustrator - InVision</h4>
+      <h4 id = "date">November 2017 - December 2017</h4>
+      <h6 id = "team">Designed by: Selin Insel, Allison Mui, Emily Osborne</h6>
+    </div>
+  </div>
+
+  <!-- creating row for problem statement  -->
+  <div class = "row_prob">
+    <!-- full 12 spaces -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <!-- the problem statement -->
+      <!-- creating heading class so that I can style all of the headings the same way -->
+      <h2 class = "heading">Emergency Crisis: Water Contamination in the US</h2>
+      <!-- creating descrip class so that I can style all of the paragraphs the same way -->
+      <p class = "descrip">"As many as 63 million people - nearly a fifth of the United States -
+        from rural central California to the boroughs of New York City, were exposed to potentially
+        unsafe water more than once during the past decade."</p>
+      <p id = "prob_source">-USA Today 2017</p>
+    </div>
+  </div>
+
+  <!-- creating row for solution  -->
+  <!-- begininng header for info solution  -->
+  <div class = "row_solution">
+    <!-- all 12 spaces -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2 class = "heading">Solution</h2>
+      <!-- solution statement -->
+      <p class = "descrip">Studies show people become more altruistic and willing
+        to help neighbors in times of crisis.
+        Therefore, a peer economy can be leveraged.
+        In places with frequent water contamination, strengths of close communities
+        can be used to create a cycle of water sharing.</p>
+    </div>
+
+    <!-- all 12 spaces  -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <!-- first subheading  -->
+      <!-- first subheading - xlass so I can style all of the bold headings the same way  -->
+      <h6 class = "bold_heading">Value Proposition</h6>
+    </div>
+  </div>
+
+  <!-- creating row for all of the info for value proposition -->
+  <div class = "row_solution" id = "valuep">
+    <!-- I want two columns - both to take up half of the screen - 6 spaces each -->
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <!-- starting content for the users -->
+      <p>For the users:</p>
+      <ul id = "value_users">
+        <li>WaterConnect allows people to share resources so that they can
+          continue on with their lives during water crises.</li>
+        <li>WaterConnect fosters a strong and supportive community.</li>
+      </ul>
+    </div>
+
+    <!--second column of 6 spaces  -->
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <!-- starting content for the city  -->
+      <p>For the city:</p>
+      <ul id = "value_city">
+        <li>We foresee the municipality to fund WaterConnect.
+          Therefore, WaterConnect provides a way for the municipality to mitigate
+          the water contamination situation by allowing for a strong community of
+          donors and receivers who help each other.</li>
+      </ul>
+    </div>
+  </div>
+
+
+  <!--pictures that demonstrate an overall live demo  -->
+  <!--take up full screen - full width and height  -->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <img src = "assets/images/point_of_entry.png" width = "100%" height = "100%">
+    </div>
+  </div>
+
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <img src = "assets/images/requesting_help.png" width = "100%" height = "100%">
+    </div>
+  </div>
+
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <img src = "assets/images/on_the_go.png" width = "100%" height = "100%">
+    </div>
+  </div>
+
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <img src = "assets/images/appreciate.png" width = "100%" height = "100%">
+    </div>
+  </div>
+
+  <!-- creating row for the beginning of our research and process work  -->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2 class = "heading">Our Process</h2>
+      <h2 class = "sub_heading">Research</h2>
+      <h6 class = "bold_heading">Guerrilla Research</h6>
+    </div>
+  </div>
+
+  <!-- content for insights  -->
+  <!-- using same class as value proposition so bullets are styled the same way -->
+  <div class = "row_solution" id = "valuep">
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <!-- initial description of guerrilla research -->
+      <p>After we chose water contamination as our problem space,
+        we went out into the field with three main questions:</p>
+      <ul id = "value_users">
+        <!-- content of feedvack/quotes from interviewees -->
+        <li>If your house had contaminated water, what would you need?</li>
+        <li>If you heard a nearby neighborhood had contaminated water, what would you be willing to share?</li>
+        <li>What would you expect in return?</li>
+      </ul>
+    </div>
+
+    <!-- take up all space -->
+    <!-- content of insights from research -->
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <p>Key Insights:</p>
+      <ul id = "insights">
+        <li>People want INFORMATION!</li>
+        <li>No expectation of monetary or quantifiable compensation.</li>
+        <li>Concern and slight hesistance about sharing space because of privacy concerns.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!--speed dating content  -->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2 class = "heading">Speed Dating</h2>
+      <p>Moving forward with our insights from guerrilla research and supportive secondary research,
+        we created personas and scenarios that conceptualized our service to speed date.</p>
+      <!-- pictures to be full screen and width -->
+      <img src = "assets/images/scen1.png"width = "100%" height = "100%">
+      <p class = "caption">Scenario 1: Joe and Danita connect through a social platform.</p>
+      <img src = "assets/images/scen2.png" width = "100%" height = "100%">
+      <p class = "caption">Scenario 2: Danita helps a mother in need.</p>
+      <p class = "new_subheading">Key Insights</p>
+      <ul id = "insights">
+        <li>Significantly more <strong> hesitant </strong> about sharing or letting somebody
+          else into their personal spaces. </li>
+        <li>Much more inclined to <strong> donate water or money.</strong></li>
+        <li>More sensitive to helping a person with a <strong>more serious need</strong>
+          (ex: elderly, mother, housebound).</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- finalized scenario section -->
+  <div class = "row_solution">
+    <!-- all 12 spaces - full screen  -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2 class = "heading">Finalized Scenario</h2>
+      <p>Because our speed dating insights significantly contradicted our findings
+        from guerrilla research, we went back to the drawing board and finalized our
+        personas and scenarios.</p>
+      <img src = "assets/images/henry.png" width = "100%" height = "100%">
+      <img src = "assets/images/joe.png" width = "100%" height = "100%">
+      <img src = "assets/images/finalS.png" width = "100%" height = "100%">
+      <p class = "caption">Finalized Scenario: Joe helps a home bound elderly man who needs drinking water.</p>
+    </div>
+  </div>
+
+  <!-- creating section for wireframes and work behind the wireframes  -->
+  <div class = "row_solution">
+    <!-- all 12 spaces - full screen -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2 class = "heading">Creating Wireframes</h2>
+      <h6 class = "bold_heading">Screen Map</h6>
+      <img src = "assets/images/screenmap.png" width = "100%" height = "100%">
+      <img src = "assets/images/desk.png" width = "100%" height = "100%" id = "desk">
+      <img src = "assets/images/mobile.png" width = "90%" height = "90%">
+    </div>
+  </div>
+
+  <!-- section for the desktop prototype  -->
+  <div class="row-video">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <h6 class = "bold_heading">Desktop Prototype</h6>
+      <div class="embed-responsive embed-responsive-16by9">
+        <!-- my youtube video link -->
+        <iframe src="https://www.youtube.com/embed/h8MyxMFN44s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id = "video"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- section for my final takeways and lessons I learned from project  -->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2 class = "heading">Final Takeaways</h2>
+      <ul id = "takeaway">
+        <li>This project was a lot of fun because there was such a strong purpose and objective of the design challenge.</li>
+        <li>One essential lesson I learned from this project was to never design for yourself. But, for others. Because in the end, I am not the user.</li>
+        <li>If I had more time, I would see if there was a way for WaterConnect to play out on a global scale.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- option for the user to be able to go back to main scren  -->
+  <div id = "user_controls">
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <p><a href = "../work.html" id = "back_button">Back to Work</a></p>
+    </div>
+  </div>
+
+
+
+</body>

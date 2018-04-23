@@ -1,0 +1,49 @@
+body, html {
+  /* ensuring the height of the body and anything in is 100%  */
+  height: 100%;
+  font-family: "Open Sans"
+}
+
+.look {
+  /* position is absolute / won't change  */
+  position: absolute;
+  /* positions button under the project description  */
+  top: -20000%;
+  left: 45%;
+}
+
+
+
+.social {
+  position: absolute;
+  top: 90%;
+  left: 41.5%;
+}
+
+/* changes position of the get started button when the screen passes 600px */
+/* styles so when user makes screen smaller, makes button responsive in size and position */
+@media only screen and (max-width: 600px) {
+  /* changes position of button  */
+  .look {
+    position: absolute;
+    top: -6000%;
+    left: 40%;
+    height: -20%;
+  }
+  /* changes font size inside button  */
+  .look a {
+    font-size: 10px;
+  }
+  /* changes position of social media buttons */
+  .social {
+    position: absolute;
+    top: 0%;
+    left: 20.5%;
+  }
+}
+
+
+li {
+  display: inline-block;
+  padding: 10px;
+}

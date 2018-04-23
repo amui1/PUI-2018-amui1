@@ -1,0 +1,196 @@
+body {
+  /* setting font  */
+  font-family: "Open Sans";
+  margin-right: 100px;
+}
+
+/* styles placement/position of the navbar  */
+.navbar {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.nav-link {
+  margin-top: 25px;
+}
+
+
+/* indents the content of the rows  */
+.row_heading {
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+
+/* title of work in the introduction section of the project  */
+#proj_name {
+  /* boldish  */
+  font-weight: 400;
+}
+
+/* skills of the introduction section of project */
+#skills {
+  /* boldish  */
+  font-weight: 200;
+  /* styling the text size  */
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* intro - date of project  */
+#date {
+  /* boldish  */
+  font-weight: 200;
+  /* styling the text size  */
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* who I worked with - size of the font and the position  */
+#team {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+
+/* positions the problem so that the spacing is all neat on the screen  */
+.row_prob {
+  /* indents from left and right - equal white space on both sides */
+  margin-left: 100px;
+  margin-right: 100px;
+  /* neat spacing in between content  */
+  margin-top: 100px;
+}
+
+/* styles all heading of sections the same - font, size, and color */
+.heading {
+  font-weight: 500;
+  font-size: 24px;
+  color: #48ACDB;
+}
+
+/* styles the font size and weight of all the paragraph contents */
+p {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+/* positions the paragraph and makes neat spacing in between paragraph and heading above */
+.descrip {
+  margin-top: 20px;
+}
+
+/* neat spacing on left and rigth side of the info - neat spacing between end of previous section and start of next */
+.row_solution {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 80px;
+}
+
+/* styles font size and weight of all the bold headings - sub headings */
+.bold_heading {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600px;
+  margin-right: 100px;
+}
+
+/* styles spaces from left and right of content as well as spacing between previous info to this one */
+#valuep{
+  margin-top: 20px;;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* styles the sub-heading - bigger one (not the bold one) so that all sub headings look the same - color, size, position */
+.sub_heading {
+  margin-top: 25px;
+  margin-right: 100px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #48ACDB;
+}
+
+/* styles the content appearance in the list */
+li {
+  /* font size */
+  font-weight: 200;
+  /* spacing in between line items  */
+  line-height: 2;
+}
+
+/* positions spacign - neat - between previous info and current insights section  */
+#insights {
+  margin-top: 40px;
+}
+
+/* positions the caption of the scenarios */
+.caption_scen {
+  font-weight: 600;
+  font-size: 13px;
+  margin-bottom: 60px;
+  margin-left: 8%;
+  margin-right: 100px;
+}
+
+/* how I want to make certain words in the sentence stand out */
+strong {
+  /* stand out by special color - blue  */
+  color: #48ACDB;
+}
+
+/* how I made the spaces on the left and right of the video the same - centered the video and also scaled video */
+.row-video {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+/* neat spacing between video and the last section (wireframe section) */
+#video {
+  /* margin-top: 50px; */
+}
+
+/* positions the back button */
+#user_controls {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 100px;
+}
+
+/* even though the back button is a link, I don't want it to be the blue color */
+#back_button {
+  /* I want it to be black color */
+  color: #000;
+}
+
+/* position the enlarge and small buttons  */
+/* center of page */
+.pic_btn {
+  margin-left: 39.5%;
+  margin-top: 2%;
+}
+
+/* styling and positioning primary research pic */
+
+#pic_size, #story1, #story2, #story3, #story4 {
+  margin-left: 10%;
+}
+
+#model {
+  margin-left: 10%;
+}
+
+#big_story1_pic, #small_story1_pic,
+#big_story2_pic, #small_story2_pic,
+#big_story3_pic, #small_story3_pic,
+#big_story4_pic, #small_story4_pic {
+  margin-top: -100px;
+}
+
+#pic_size_full {
+  margin-right: 100px;
+}

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Allison Mui - Work</title
+    <!--styles-->
+    <link rel = "stylesheet" type = "text/css" href = "assets/styles/wilbur.css"</link>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- javascript -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <!-- creates a navbar with large padding, and background is white  -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <!-- makes logo in the top left  -->
+    <a class="navbar-brand" href="../home.html">
+      <img src = "../assets/images/logo.png" width = "60" height = "60" class = "d-inline-block align-top" alt = "">
+    </a>
+
+    <!-- if window is small enough, menu will turn into a toggle  -->
+    <button class="navbar-toggler" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="nav navbar-nav navbar-right">
+        <!-- if user is on this page, then active  -->
+        <li class="nav-item active">
+          <a class="nav-link" href="../work.html">Work <span class="sr-only">(current)</span></a>
+        </li>
+        <!-- option to click other page  -->
+        <li class="nav-item">
+          <a class="nav-link" href="../about/me.html">About Me</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <!-- row for the first full width banner  -->
+  <div class = "row">
+    <!-- I want the banner to take the full screen, so all 12 spaces-->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <!-- my banner is the full width of the screen -->
+      <img id = "wil_banner" src="assets/images/wilbur_banner.png "
+            width = "100%">
+    </div>
+  </div>
+
+  <!-- creating the first row for introduction info -->
+  <div class = "row_heading">
+    <!-- take up full screen -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <!-- introduction information for project  -->
+      <!-- specific ids so I can style the font size of each  -->
+      <h2 id = "proj_name">WILBUR</h2>
+      <h4 id = "skills">Adobe Illustrator - Adobe After Effects</h4>
+      <h4 id = "date">November 2017 - December 2017</h4>
+      <h6 id = "team">Designed by: Kailin Dong, Ketki Jadhav, Jessica Kwon, Allison Mui, Violet Zhao</h6>
+    </div>
+  </div>
+
+  <!-- creating the first row for solution statement -->
+  <div class = "row_heading">
+    <!-- take up full screen -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <!-- specific ids so I can style the font size of each  -->
+      <p class = "descrip">Wilbur was a group final project for a course named Service Design.
+        Along with my four other group members, I was tasked to create a service for PNC Bank
+        that would teach financial literacy skills as well as encourage better teen to
+        parent financial conversations.</p>
+    </div>
+  </div>
+
+  <!-- section for service summary - description of what Wilbur is -->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2 class = "heading">Service Summary</h2>
+      <p class = "descrip">Wilbur is a service that helps teens learn financial literacy
+        through virtual credit scores and enhanced financial conversations with their parents.</p>
+      <p class = "descrip">Through a mobile application, a teen (14-16) loans money from her parents
+        to buy items. The teen can pay back her debt through virtual money earned through
+        parent assigned tasks, such as chores or getting an A on an exam.
+        The teen stores her earnings in a virtual piggy bank and at the end of the month,
+        she will receive a bill from PNC and will pay back the debt she has owed her parents.</p>
+      <p class = "descrip">Simulating the real world, Wilbur:</p>
+      <ul id = "simulating">
+        <li>Allows teens to loan money from the parent, who in real applications, represent the bank.</li>
+        <li>Provides a credit score that is affected by many factors such as timeliness in paying bills,
+          amount of debt carried over, or amount of debt owed.</li>
+        <li>Suggests a 30% safety wall, which echoes the industry recommendation of spending 30% of one's credit allowance.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- section for research-->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2 class = "heading">Research</h2>
+
+      <!-- bold heading for secondary research  -->
+      <h6 class = "bold_heading">Secondary Research</h6>
+      <p class = "descrip">We first dove into research in order to understand the severity, scope, and impact of our problem.
+        From financial literacy articles, we were able to gather valuable findings from
+        various financial literacy articles. Some key findings were:</p>
+      <!--bullets for what we learned during secondary research  -->
+      <ul id = "secondary_research">
+        <li>Financial education programs do exist, but its effectiveness is unknown because there is a  lack of research and documentation. </li>
+        <li>Because there is a substantial difference among young adults, a one-size-fits-all model does not work.
+          Programs should be targeted towards a specific audience and specific area of education. </li>
+        <li>Financial programs on market today work heavily on practicing financial skills, instead of teaching.</li>
+      </ul>
+
+      <!-- bold heading for primary research  -->
+      <h6 class = "bold_heading">Primary Research</h6>
+      <p class = "descrip">After reading up on articles, we created a set of questions to gauge
+        financial knowledge, such as current financial habits, emotional responses to financial
+        conversations, and familiarity of financial terms. With these questions,
+        we surveyed parents and teenagers. </p>
+      <!-- picture of findings from primary research  -->
+      <img src = "assets/images/prim.png" width = "75%" height = "75%" id = "pic_size">
+
+    </div>
+  </div>
+
+  <div class = "row_heading">
+    <!-- take up full screen -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pic_btn">
+      <button id = "big_pic" class="btn btn-default">Bigger</button>
+      <button id = "small_pic" class="btn btn-default">Smaller</button>
+    </div>
+  </div>
+
+  <!-- section for primary models - stakeholder model-->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2 class = "heading">Primary Models</h2>
+      <h6 class = "bold_heading">Stakeholder/Value Flow Model</h6>
+      <p class = "descrip">Taking our research findings forward, we created a stakeholder
+        model to identify all the main players of our problem.
+        Through our model, we worked to tell the story that there is a lack of
+        variety in the realm of financial tools. </p>
+      <img src = "assets/images/stake.png" width = "75%" height = "75%" id = "model">
+    </div>
+  </div>
+
+  <div class = "row_heading">
+    <!-- take up full screen -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pic_btn">
+      <button id = "big_model_pic" class="btn btn-default">Bigger</button>
+      <button id = "small_model_pic" class="btn btn-default">Smaller</button>
+    </div>
+  </div>
+
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <!--bullets for what we learned from stakeholder model  -->
+      <p class = "descrip">We identified three key opportunity areas, ones that our service could focus on improving.</p>
+      <ul id = "secondary_research">
+        <li>Teens and tools</li>
+          <ul>
+            <li>Too many tools on market currently practice money management skills,
+              specifically short-term savings.</li>
+          </ul>
+        <li>Teens and banks</li>
+          <ul>
+            <li>Banks are connected to teens through parents. However, currently,
+              teens never get the opportunity to interact with banks until they are of age.</li>
+          </ul>
+        <li>Teens and parents</li>
+          <ul>
+            <li>Parents can be the most influential element to teenagers when it comes to credit
+              card usage. Their behavior models how teens conceptualize credit card usage.</li>
+          </ul>
+      </ul>
+    </div>
+  </div>
+
+
+  <!-- section for current state-->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <p class = "descrip">To understand the problem's current effect, we created a
+        current state model on how teenagers earn and spend money.</p>
+      <img src = "assets/images/cur_state.png" width = "75%" height = "75%" id = "pic_size">
+    </div>
+  </div>
+
+
+  <!-- section for primary models - concept generation -->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2 class = "heading">Concept Generation</h2>
+      <!-- I want a numbered list -->
+      <ol type = "1">
+        <!-- the concepts we first came with  -->
+        <li>An interactive platform that sets saving and earning goals</li>
+        <li>An application that suggests what to do with a deposit going
+          forward, such as moving into a growth account or investing.</li>
+      </ol>
+
+      <!-- feedback section - new bold subheading  -->
+      <h6 class = "bold_heading">Feedback</h6>
+      <ul>
+        <li>Concepts are too goal-oriented. Solutions were mainly goal-oriented trackers.</li>
+        <li>Parents are important stakeholders, but what is their role in our concepts?</li>
+        <li>No teaching of financial literacy!</li>
+      </ul>
+
+      <!-- refinement section - new bold subheading  -->
+      <h6 class = "bold_heading">Refinement</h6>
+      <!-- blurb about what we did during refinement -->
+      <p class = "descrip">From here we decided to pivot our direction to target high
+        school freshman and sophomores, ages 14-16. The reasons for choosing this
+        new age group are:</p>
+      <!-- bullets for refinement reasons  -->
+      <ul>
+        <li>Teens at this age still heavily rely on their parents. Therefore, parental support would be included and easier to engage from both user sides.</li>
+        <li>This is a time before teens need to be financially independent.
+          Practicing financial skills beforehand will better prepare them to enter the
+          next stage of their lives.</li>
+      </ul>
+
+    </div>
+  </div>
+
+  <!-- section for storyboards-->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <!-- section that first lays out all the storyboards I had  -->
+      <h6 class = "bold_heading">Storyboards</h6>
+      <p class = "descrip">We brainstormed 4 more concepts that were brought to the field for speed dating. </p>
+      <!-- storyboard 1 -->
+      <img src = "assets/images/story1.png" width = "75%" height = "75%" id = "story1">
+      <p class = "caption_scen">Concept 1: Building credit awareness</p>
+    </div>
+  </div>
+
+  <!-- button to enlarge/small storyboard 1 -->
+  <div class = "row_heading">
+    <!-- take up full screen -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pic_btn">
+      <button id = "big_story1_pic" class="btn btn-default">Bigger</button>
+      <button id = "small_story1_pic" class="btn btn-default">Smaller</button>
+    </div>
+  </div>
+
+
+  <!-- storyboard 2 -->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <img src = "assets/images/story2.png" width = "75%" height = "75%" id = "story2">
+        <p class = "caption_scen">Concept 2: VR game of life teaching long term responsibilities, such as mortgage or loans.</p>
+    </div>
+  </div>
+
+  <!-- storyboard 2 button  -->
+  <div class = "row_heading">
+    <!-- take up full screen -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pic_btn">
+      <button id = "big_story2_pic" class="btn btn-default">Bigger</button>
+      <button id = "small_story2_pic" class="btn btn-default">Smaller</button>
+    </div>
+  </div>
+
+  <!-- storyboard 3 -->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <img src = "assets/images/story3.png" width = "75%" height = "75%" id = "story3">
+        <p class = "caption_scen">Concept 3: Child versus parent game practicing basic financial
+          skills through concepts such as expenses, budgeting, and profit calculation</p>
+    </div>
+  </div>
+
+  <!-- button for storyboard 3 -->
+  <div class = "row_heading">
+    <!-- take up full screen -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pic_btn">
+      <button id = "big_story3_pic" class="btn btn-default">Bigger</button>
+      <button id = "small_story3_pic" class="btn btn-default">Smaller</button>
+    </div>
+  </div>
+
+  <!-- storyboard 4  -->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <img src = "assets/images/story4.png" width = "75%" height = "75%" id = "story4">
+        <p class = "caption_scen">Concept 4: Community Shark Tank teaching entrepreneurial skills through community support and competition.</p>
+    </div>
+  </div>
+
+  <!-- button for storyboard 4 -->
+  <div class = "row_heading">
+    <!-- take up full screen -->
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 pic_btn">
+      <button id = "big_story4_pic" class="btn btn-default">Bigger</button>
+      <button id = "small_story4_pic" class="btn btn-default">Smaller</button>
+    </div>
+  </div>
+
+  <!-- speed dating section -->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+        <!-- section that describes speed dating feedback  -->
+        <h6 class = "bold_heading">Speed Dating Feedback</h6>
+        <p class = "descrip">We conducted speed dating with 5 parents,
+          4 high school teens, and 2 financial professionals to validate the need for our concepts.</p>
+        <p class = "descrip">From our speed dating results, we found that the credit score
+          concept had the most potential and created the most enthusiasm amongst all
+          of our stakeholders.</p>
+        <p class = "descrip">A few things that were emphasized from our speed dating responses was the:</p>
+
+        <!-- listing out the responses we got back from speed dating - insights from speed dating  -->
+        <ul>
+          <li>Negative risky nature of credit score, from the parent's perspective.</li>
+          <li>Positive feeling of maturity and freedom that comes with financial
+            independence, from the teen's perspective.</li>
+          <li>Hundreds of ill-meaning banks give off a predatory nature towards
+            college freshman by pushing credit cards to unprepared financial minds.</li>
+        </ul>
+
+      </div>
+    </div>
+
+  <!-- section for final service-->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2 class = "heading">Final Service</h2>
+      <img src = "assets/images/wire1.png" width = "100%" height = "100%" id = "pic_size_full">
+      <img src = "assets/images/wire2.png" width = "100%" height = "100%" id = "pic_size_full">
+      <p class = "descrip">Throughout this concept, the teen asks her mom to buy her a
+        gift and in return, she completes household chores and other tasks to pay off
+        her "debt." If the teen's debt is paid off in time, her "credit score" goes up
+        and she is allowed to ask for a more expensive gift the next time.</p>
+
+      <!-- subheading for value proposition -->
+      <h6 class = "bold_heading">Value Proposition</h6>
+      <p class = "descrip"><strong>Teens</strong> get to buy the items they want, while also feeling that they earned it.</p>
+      <p class = "descrip"><strong>Parents</strong> get their children to practice good financial skills as
+        well as engage in meaningful educational discussions with their children.</p>
+      <p class = "descrip"><strong>PNC</strong> will gain loyal credit card customers since Wilbur will
+        be a long term use service. Additionally, PNC will gain reliable card
+        holders with good credit scores, which will lead to more loan applications
+        and ultimately, a better bank economy.</p>
+
+      <!-- subheading for personas -->
+      <p class = "descrip"><p class = "descrip">Below are Jennifer and Sydney. They are the
+        personas we created that will be portrayed by Kailin and I in our concept video.</p>
+      <img src = "assets/images/jennifer.png" width = "100%" height = "100%" id = "pic_size_full">
+      <img src = "assets/images/sydney.png" width = "100%" height = "100%" id = "pic_size_full">
+
+      <!-- subheading for concept video  -->
+      <h6 class = "bold_heading">Concept Video</h6>
+      <div class="embed-responsive embed-responsive-16by9">
+        <!-- my youtube video link -->
+        <iframe src="https://www.youtube.com/embed/ImOiqj3h6m8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen id = "video"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- section for my final takeways and lessons I learned from project  -->
+  <div class = "row_solution">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+      <h2 class = "heading">Final Takeaways</h2>
+      <ul id = "takeaway">
+        <li>Making a service from start to finish was definetly extremely challenging,
+          but very fulfilling. Through hours of hard work, my team was able to create a
+          service that was both fun and educational.</li>
+        <li>If I head more time, I would run Wilbur through usability tests and see how effective the financial literacy tool works.</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- option for the user to be able to go back to main scren  -->
+  <div id = "user_controls">
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <p><a href = "../work.html" id = "back_button">Back to Work</a></p>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script type="text/javascript" src="../script.js"></script>
+
+
+
+</body>

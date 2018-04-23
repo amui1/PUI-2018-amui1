@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Allison Mui</title>
+    <!--styles-->
+    <link rel = "stylesheet" type = "text/css" href = "assets/styles/home.css"</link>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
+      integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+      crossorigin="anonymous">
+    </link>
+    <!-- anime.js library -->
+    <script src="https://rawgithub.com/juliangarnier/anime/master/anime.min.js"></script>
+    <script type="text/javascript">
+    // animates the polygons for my social icons
+      window.onload = function() {
+        var svgAttributes = anime({
+          targets: '#svgAttributes polygon',
+          points: '64 128 8.574 96 8.574 32 64 0 119.426 32 119.426 96',
+          easing: 'easeInOutExpo',
+          delay: 1000
+        });
+      }
+
+</script>
+
+</head>
+
+<body>
+
+  <!-- I want it to be full screen so takes up all 12 spaces  -->
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <!-- my picture should be full screen  -->
+    <img src = "assets/images/bg1.png" width = "100%" height = "100%">
+  </div>
+
+
+  <!-- I want it to be full screen so takes up all 12 spaces  -->
+  <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <!-- button to get to start exploring work-->
+    <!-- animated tada to make it more lively -->
+    <button type="button" class="animated tada infinite btn-lg btn-light look"><a href = "work.html">Get Started</button></a>
+  </div>
+
+  <!-- list of social icons -->
+  <ul class = "social">
+    <li>
+      <div id="svgAttributes"> <svg width="30" height="30" viewBox="0 0 128 128">
+        <!-- my facebook  -->
+        <a href = "https://www.facebook.com/allison.mui.7"><polygon points="64 69.32156174923195 8.574 99.95407265840755 62.81596872803478 67.27032811299536 64
+        3.954072658407551 65.18403127196521 67.27032811299536 119.426 99.95407265840755 " fill="#48ACDB"></polygon></a>
+        <text x="50%" y="60%" text-anchor="middle" fill="white" font-size="50">FB</text>
+      </svg> </div>
+    </li>
+
+    <li>
+      <div id="svgAttributes"> <svg width="30" height="30" viewBox="0 0 128 128">
+        <!-- my linkedin  -->
+        <a href = "https://www.linkedin.com/in/allison-mui"><polygon points="64 69.32156174923195 8.574 99.95407265840755 62.81596872803478 67.27032811299536 64
+        3.954072658407551 65.18403127196521 67.27032811299536 119.426 99.95407265840755 " fill="#48ACDB"></polygon></a>
+        <text x="50%" y="60%" text-anchor="middle" fill="white" font-size="50">LI</text>
+      </svg> </div>
+    </li>
+
+    <li>
+      <div id="svgAttributes"> <svg width="30" height="30" viewBox="0 0 128 128">
+        <!-- my vsco  -->
+        <a href = "https://vsco.co/allison-mui/images/1"><polygon points="64 69.32156174923195 8.574 99.95407265840755 62.81596872803478 67.27032811299536 64
+        3.954072658407551 65.18403127196521 67.27032811299536 119.426 99.95407265840755 " fill="#48ACDB"></polygon></a>
+        <text x="50%" y="60%" text-anchor="middle" fill="white" font-size="50">VS</text>
+      </svg> </div>
+    </li>
+  </ul>
+
+
+
+</body>

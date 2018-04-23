@@ -1,0 +1,106 @@
+body {
+  /* setting font  */
+  font-family: "Open Sans";
+}
+
+/* styles placement/position of the navbar  */
+.navbar {
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.nav-link {
+  margin-top: 25px;
+}
+
+/* positions row for neat spacing below previous info and after current info  */
+.row {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+/* so that I can have a margin of white space on the left of the pic */
+.pic {
+  margin-left: 15%;
+}
+
+/* neat spacing below previous info and after current info  */
+.intro {
+  margin-top: 35px;
+}
+
+/* styles all heading of sections the same - font, size, and color */
+.heading {
+  font-weight: 500;
+  font-size: 24px;
+  color: #48ACDB;
+  margin-left: 50px;
+}
+
+/* styles the font size and weight of all the paragraph contents */
+p {
+  font-size: 16px;
+  font-weight: 200;
+}
+
+/* positions the paragraph and makes neat spacing in between paragraph and heading above */
+.descrip {
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 100px;
+}
+
+
+/* positions neat spacing amongst sections of 'outside of school info' */
+.row_sections {
+  /* below and above adjacent info  */
+  margin-top: 50px;
+  /* equal neat spacing on left and right of info  */
+  margin-left: 40px;
+  margin-right: 100px;
+}
+
+#hide {
+  margin-left: 100px;
+}
+
+.info {
+  margin-left: 50px;
+}
+
+/* how I want to make certain words in the sentence stand out */
+strong {
+  /* stand out by special color - blue  */
+  color: #48ACDB;
+}
+
+/* positions neat spacing for both GBB and travel carousels */
+#myCarousel, #myCarousel_travel {
+  /* below and above adjacent info  */
+  margin-top: 20px;
+  /* equal neat spacing on left and right of info  */
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 60px;
+}
+
+/* I want to specially adjust the spacing of the travel spacing - b/c it was too close from the previous info */
+/* .descrip_special {
+  margin-top: 60px;
+  margin-left: 50px;
+  margin-right: 100px;
+} */
+
+/* positions the back button */
+#user_controls {
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+/* even though the back button is a link, I don't want it to be the blue color */
+#back_button {
+  /* I want it to be black color */
+  color: #000;
+}
